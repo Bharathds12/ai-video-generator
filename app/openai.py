@@ -2,7 +2,7 @@ from openai import OpenAI
 from .config import settings
 import json
 
-client = OpenAI(api_key=settings.open_ai_api_key)
+client = OpenAI(api_key=settings.open_ai_api_key)...
 
 
 def get_open_ai_client():
